@@ -8,25 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4CFF26B31D55CC82007DD9EC /* TabPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFF26B21D55CC82007DD9EC /* TabPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CFF26BA1D55CC82007DD9EC /* TabPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFF26AF1D55CC82007DD9EC /* TabPageViewController.framework */; };
-		4CFF26BF1D55CC82007DD9EC /* TabPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF26BE1D55CC82007DD9EC /* TabPageViewControllerTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4CFF26BB1D55CC82007DD9EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CFF26A61D55CC82007DD9EC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CFF26AE1D55CC82007DD9EC;
-			remoteInfo = TabPageViewController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4CFF26AF1D55CC82007DD9EC /* TabPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TabPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFF26B21D55CC82007DD9EC /* TabPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabPageViewController.h; sourceTree = "<group>"; };
 		4CFF26B41D55CC82007DD9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CFF26B91D55CC82007DD9EC /* TabPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFF26BE1D55CC82007DD9EC /* TabPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerTests.swift; sourceTree = "<group>"; };
 		4CFF26C01D55CC82007DD9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,14 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CFF26B61D55CC82007DD9EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CFF26BA1D55CC82007DD9EC /* TabPageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				4CFF26AF1D55CC82007DD9EC /* TabPageViewController.framework */,
-				4CFF26B91D55CC82007DD9EC /* TabPageViewControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,24 +96,6 @@
 			productReference = 4CFF26AF1D55CC82007DD9EC /* TabPageViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4CFF26B81D55CC82007DD9EC /* TabPageViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CFF26C61D55CC82007DD9EC /* Build configuration list for PBXNativeTarget "TabPageViewControllerTests" */;
-			buildPhases = (
-				4CFF26B51D55CC82007DD9EC /* Sources */,
-				4CFF26B61D55CC82007DD9EC /* Frameworks */,
-				4CFF26B71D55CC82007DD9EC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CFF26BC1D55CC82007DD9EC /* PBXTargetDependency */,
-			);
-			name = TabPageViewControllerTests;
-			productName = TabPageViewControllerTests;
-			productReference = 4CFF26B91D55CC82007DD9EC /* TabPageViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,10 +108,7 @@
 				TargetAttributes = {
 					4CFF26AE1D55CC82007DD9EC = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
-					};
-					4CFF26B81D55CC82007DD9EC = {
-						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -168,20 +125,12 @@
 			projectRoot = "";
 			targets = (
 				4CFF26AE1D55CC82007DD9EC /* TabPageViewController */,
-				4CFF26B81D55CC82007DD9EC /* TabPageViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4CFF26AD1D55CC82007DD9EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CFF26B71D55CC82007DD9EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CFF26B51D55CC82007DD9EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CFF26BF1D55CC82007DD9EC /* TabPageViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CFF26BC1D55CC82007DD9EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CFF26AE1D55CC82007DD9EC /* TabPageViewController */;
-			targetProxy = 4CFF26BB1D55CC82007DD9EC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4CFF26C11D55CC82007DD9EC /* Debug */ = {
@@ -351,26 +284,6 @@
 			};
 			name = Release;
 		};
-		4CFF26C71D55CC82007DD9EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TabPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.vasily.TabPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4CFF26C81D55CC82007DD9EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TabPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.vasily.TabPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -388,15 +301,6 @@
 			buildConfigurations = (
 				4CFF26C41D55CC82007DD9EC /* Debug */,
 				4CFF26C51D55CC82007DD9EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CFF26C61D55CC82007DD9EC /* Build configuration list for PBXNativeTarget "TabPageViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CFF26C71D55CC82007DD9EC /* Debug */,
-				4CFF26C81D55CC82007DD9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
